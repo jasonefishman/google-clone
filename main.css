@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+	padding: 15px 30px;
+}
+
+.nav {
+	position: relative;
+	float: right;
+	width: 350px;
+	text-align: right;
+}
+
+.nav a {
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.header ul li {
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.logo {
+	position: relative;
+	padding: 200px 300px 20px 400px;
+}
+
+#signin {
+	width: 75px;
+	height: 25px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border: 1px blue;	
+}
+
+input {
+	position: relative;
+	width: 600px;
+	height: 40px;
+	display: block;
+	margin: auto;
+	padding-left: 100px;
+	background-image: url(https://dl.dropboxusercontent.com/u/262896415/projectfolder/google-clone/images/microphone.png);
+	background-repeat: no-repeat;;
+	background-position: right;	
+}
+
+.searchbuttons {
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.searchbuttons ul li {
+	widows: 100px;
+	height: 40px;
+	color: black;
+	position: relative;
+	margin-right: 15px;
+	list-style: none;
+	display: inline-block;
+}
+
+.searchbuttons button {
+	width: 100px;
+	height: 30px;
+	border: 1px gray;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.footer ul li {
+	widows: 100px;
+	height: 40px;
+	color: black;
+	position: relative;
+	margin-right: 15px;
+	list-style: none;
+	display: inline-block;
+	padding-top: 200px;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-left button {
+	width: 100px;
+	height: 30px;
+	border: 1px gray;
+	font-size: 10px;
+}
+
+.footer-right {
+	float: right;
+}
+
+.footer-right button {
+	width: 100px;
+	height: 30px;
+	border: 1px gray;
+	font-size: 10px;
+}
+
+#privacy {
+	width: 150px;
+	height: 30px;
+	border: 1px gray;
+	font-size: 10px;
+}
